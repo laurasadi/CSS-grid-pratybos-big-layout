@@ -1,0 +1,70 @@
+body, html{
+  height: 100%
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-template-rows: repeat(9, 1fr);
+grid-column-gap: 3px;
+grid-row-gap: 3px;
+height: 100%;
+}
+.div1 { 
+grid-area: 1 / 1 / 5 / 5;
+background-color: purple;
+}
+.div2 {
+grid-area: 5 / 1 / 8 / 3; 
+background-color: green;
+}
+.div3 {
+grid-area: 5 / 3 / 6 / 5;
+background-color: rgb(26, 148, 189);
+}
+.div4 { 
+grid-area: 6 / 3 / 8 / 5;
+background-color: red;
+}
+.div5 {
+grid-area: 8 / 1 / 10 / 5;
+background-color: green;
+}
+.div6 { 
+grid-area: 1 / 7 / 2 / 9;
+background-color: rgb(26, 148, 189);
+}
+.div7 { 
+grid-area: 7 / 5 / 10 / 9;
+background-color: purple;
+}
+.div8 { 
+grid-area: 1 / 5 / 7 / 7;
+background-color: green;
+}
+.div9 { 
+grid-area: 2 / 7 / 7 / 9;
+background-color: red;
+}
+.div10 {
+grid-area: 1 / 9 / 2 / 13;
+background-color: green;
+}
+.div11 { 
+grid-area: 2 / 9 / 3 / 10;
+background-color: rgb(26, 148, 189);
+}
+.div12 {
+grid-area: 2 / 10 / 3 / 13;
+background-color: red;
+}
+.div13 { 
+grid-area: 3 / 9 / 8 / 13;
+background-color: purple; 
+}
+.div14 { 
+grid-area: 8 / 9 / 10 / 13;
+background-color: rgb(26, 148, 189); 
+}
+*{
+  border-radius: 5px;
+}
